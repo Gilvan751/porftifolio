@@ -99,12 +99,16 @@ span {
   
     
 
-.sec__footer-img {
-   
+.sec__footer-img {   
     align-items: center;
     justify-content:center;
     width: 30px;
     height: 30px;
     margin-top: 33px;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+.company p {
+    margin-top:107px;
+    margin-bottom:54px;
 }
