@@ -74,8 +74,7 @@ span {
     line-height: 24px;
     letter-spacing: 0px;
     color: #21243D;
-    margin: 19px 21px 22px 22px;
-   
+    margin: 19px 21px 22px 22px; 
 
 }
 .port__img {
@@ -88,27 +87,17 @@ span {
     margin-top: 33px;
     margin-bottom: 34px;
 }
-.sec__footer {
-    display: flex;
-    justify-content:flex-start;
-    margin: 25px 12px 12px 25px;
-    width:30px;
-    height: 30px;
-
+footer.sec__footer, .sec__footer-img  {
+        width:30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
 }
-  
-    
 
-.sec__footer-img {   
-    align-items: center;
-    justify-content:center;
-    width: 30px;
-    height: 30px;
-    margin-top: 33px;
-    margin-bottom: 30px;
-    margin-left: 60px;
-}
 .company p {
+    margin: 0 auto;
     margin-top:107px;
     margin-bottom:54px;
 }
+
