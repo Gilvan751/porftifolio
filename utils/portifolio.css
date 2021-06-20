@@ -37,27 +37,30 @@ h1, h2, p {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: .1em;
-    margin-left: 25%;
+    margin: 0 auto;
+    display: flex;
     
 }
+.btn {
+
+}
 .btn__4 {
+   display: flex;
+    margin: 0 35%;
     background: #142850;
-    border-radius: 4px;
-	border: transparent;
+   	border: transparent;
 	padding: 12px 21px;
 	color: #fff;
 	font-size: 14px;
 	line-height: 20px;
-	text-transform: uppercase;
 	font-weight: bold;
-	letter-spacing: .1em;
-    margin-left:18px;
-    margin-bottom: 24px;
-    margin-top:16px;
-    margin-right:12px;
+	letter-spacing: .1em;    
     border-radius: 50px;
+   
 }
 span {
+    display: flex;
+    margin: 0 60%;
     color: #8695A4;
 
 }
@@ -87,17 +90,21 @@ span {
     margin-top: 33px;
     margin-bottom: 34px;
 }
-footer.sec__footer, .sec__footer-img  {
-        width:30px;
-        height: 30px;
-        display: flex;
+.sec__footer, .sec__footer-img  {
+        
+        display:flex;
         align-items: center;
+        justify-content: center;
         margin: 0 auto;
+        
+        gap: 30px;
+        
 }
+
 
 .company p {
     margin: 0 auto;
-    margin-top:107px;
+    margin-top:50px;
     margin-bottom:54px;
 }
 
